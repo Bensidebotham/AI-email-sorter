@@ -43,12 +43,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env  # <-- This line ensures that .env is ignored
 
 # local folder
 local
 
 # vercel
 .vercel
-
-#env
-.env
